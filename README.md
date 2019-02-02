@@ -1,6 +1,6 @@
-# vue-phaser3
+# grow
 
-#### Webpack boilerplate that integrates Phaser 3 into a Vue project.
+#### Gamified platoform for self realisation
 
 This project template has been set up using the **Vue CLI 3** and includes:
 * *Sass*
@@ -24,27 +24,3 @@ npm run build
 npm run serve
 ```
 
-## Extending the project to your needs
-
-If you want to add more features like *linting*, *unit testing* or *Typescript* to
-your own project, you can do so quite easily via Vue CLI's plugin system. Check
-out the <a href="https://cli.vuejs.org/guide/" target="_blank">documentation</a>
-if you want to know more.
-
-## Converting into your own repository
-
-If you want to maintain your own repo based on this boilerplate, you first need to detach it from this repo. Here is what you need to do:
-
-1. edit these files and enter your own project info
-	* *package.json*
-	* *README.md*
-	* *public/index.html*
-
-2. delete *LICENSE* (and perhaps add your own)
-
-3. reinitialize git
-<pre><code>rm -rf .git
-git init
-git add .
-git commit -m "Initial commit"
-</code></pre>
