@@ -20,8 +20,12 @@
     "serve": "serve dist"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.24.0",
     "phaser": "^3.15.1",
-    "vue": "^2.5.21"
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.2",

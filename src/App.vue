@@ -1,23 +1,36 @@
 <template>
-  <Game />
+  <div id="app">
+    <router-view/>
+  </div>
 </template>
 
-
-<script>
-import Game from '@/components/Game'
-export default {
-  name: 'App',
-  components: { Game }
+<style>
+html {
+  height: 100%;
 }
-</script>
 
-
-<style lang="scss">
 body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-height: 100%;
   margin: 0;
+  padding: 0;
+}
+
+#app{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 1s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
 }
 </style>
