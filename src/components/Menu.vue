@@ -22,7 +22,7 @@
         </carousel-3d>
 
 
-          <img id="imgsrc" src="../../../static/assets/homePage/logo.png" alt="grow logo" />
+          <img id="imgsrc" src="../../public/assets/homePage/logo.png" alt="grow logo" />
   </div>
 </template>
 
@@ -30,6 +30,7 @@
 <script>
 
 import { Carousel3d, Slide } from 'vue-carousel-3d'
+import router from 'vue-router'
 
 export default {
   name : 'App',
@@ -54,9 +55,8 @@ export default {
 
 <style>
 #carrousel {
-    background: url("../../../static/assets/homePage/main2.jpg");
+    background: url("../../public/assets/homePage/main2.jpg");
         background-size: auto auto;
-    position: absolute;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -65,20 +65,20 @@ export default {
 
 #firstSlide{
   cursor : pointer;
-  background: url('../../../static/assets/homePage/taverne.jpg');
+  background: url('../../public/assets/homePage/taverne.jpg');
   background-size : 100% 100%;
 }
 
 
 #secondSlide{
   cursor : pointer;
-  background: url('../../../static/assets/homePage/game.jpg');
+  background: url('../../public/assets/homePage/game.jpg');
   background-size : 100% 100%;
 }
 
 #thirdSlide{
   cursor : pointer;
-  background: url('../../../static/assets/homePage/gam.jpg');
+  background: url('../../public/assets/homePage/gam.jpg');
   background-size : 100% 100%;
 }
 

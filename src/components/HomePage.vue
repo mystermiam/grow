@@ -3,7 +3,7 @@
   <div id='first-sec'>
     <div id="container-img">
       <span id="grow-img"></span>
-      <div id="authentification" @click="METHOD_TO_CREATE"></div>
+      <div id="authentification" @click="toMenu"></div>
     </div>
     <!-- <a href="#second-sec" @click="enterWebsite"><img src="../../../static/images/scroll.gif" class="scrollDown"></a> -->
     <div class="entry-footer">
@@ -23,6 +23,7 @@
 
 <script>
 import {mapState, mapGetters, mapActions} from 'vuex'
+import router from 'vue-router'
 
 export default {
   data(){
@@ -42,10 +43,9 @@ export default {
   },
 
   methods: {
-    ...mapActions('landingPage',{
-         someAction: 'someAction',
-
-    })
+    toMenu(){
+      this.$router.push({ path: 'menu' });
+    }
   }
 
 
