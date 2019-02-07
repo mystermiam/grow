@@ -5,7 +5,6 @@
       <span id="grow-img"></span>
       <div id="authentification" @click="toMenu"></div>
     </div>
-    <!-- <a href="#second-sec" @click="enterWebsite"><img src="../../../static/images/scroll.gif" class="scrollDown"></a> -->
     <div class="entry-footer">
       <div class="content-footer">
         <p class="sorry">Sorry, we're doing some work on the site.</p>
@@ -56,6 +55,7 @@ export default {
 
 <style scoped>
 #first-sec{
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -63,6 +63,7 @@ export default {
 .modal{
   z-index: 99;
 }
+
 #container-img{
   height: 75%;
 }
@@ -137,12 +138,12 @@ export default {
 }
 
 .sorry{
-  font-size: 3em;
+  font-size: 5vh;
   margin: 0.1em auto;
 }
 
 .thanks{
-  font-size:1.5em;
+  font-size:2vh;
   margin:0.1em auto 0.1em auto;
 }
 
@@ -157,11 +158,4 @@ body {
   flex-wrap: wrap;
 }
 
-.scrollDown {
-  position: absolute;
-  top: 80%;
-  left: 42%;
-  width: 16%;
-  height: 25%;
-}
 </style>
