@@ -29,12 +29,16 @@
 
 <script>
 
-import { Carousel3d, Slide } from 'vue-carousel-3d'
+
+//import { Carousel3d, Slide } from 'vue-carousel-3d'
 import router from 'vue-router'
 
 export default {
   name : 'App',
-  components: { Carousel3d, Slide },
+  components: {
+    Carousel3d :  () => import("../../node_modules/vue-carousel-3d/src/Carousel3d.vue"),
+    Slide : () => import('../../node_modules/vue-carousel-3d/src/Slide.vue')
+  },
   methods: {
     goTaverne() {
       this.$router.push({
