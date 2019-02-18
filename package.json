@@ -1,18 +1,18 @@
 {
-  "name": "vue-phaser3",
-  "description": "Template for working with Phaser 3 in a Vue project",
+  "name": "Grow",
+  "description": "Grow",
   "keywords": [
     "vue",
     "phaser",
     "webpack",
     "boilerplate"
   ],
-  "author": "Markus Appel <markospoparkos@gmail.com>",
+  "author": "Gionisos, Yatchi, Aurélie Faure de Peybeyre, mystermiam",
   "version": "2.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sun0fABeach/vue-phaser3.git"
+    "url": "https://github.com/mystermiam/grow.git"
   },
   "scripts": {
     "dev": "vue-cli-service serve",
